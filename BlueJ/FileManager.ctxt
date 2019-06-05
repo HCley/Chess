@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=FileManager
+comment1.params=chessman1\ chessman2\ fs\ turn\ file
+comment1.target=boolean\ save(java.util.ArrayList,\ java.util.ArrayList,\ java.lang.String,\ boolean,\ java.lang.String)
+comment1.text=\r\n\ M\u00E9todo\ salva\ o\ jogo\ em\ [Slot.(slot)].txt\r\n\ Par\u00E2metros\:\r\n\ ArraList<Piece>\ chessman1\ (Salva\ todo\ o\ ArrayList\ com\ as\ pe\u00E7as\ do\ time\ 1)\r\n\ ArraList<Piece>\ chessman2\ (Salva\ todo\ o\ ArrayList\ com\ as\ pe\u00E7as\ do\ time\ 2)\r\n\ String\ fs\ (Salva\ o\ modo\ de\ jogo)\r\n\ boolean\ turn\ (Salva\ o\ turno)\r\n\ String\ file\ (Procura\ o\ Slot\ a\ salvar)\ \r\n\ retorna\ true\ se\ for\ o\ jogo\ foi\ salvo\ em\ [Slot.(slot)].txt\r\n
+comment2.params=chessman1\ chessman2\ file
+comment2.target=java.lang.String\ load(java.util.ArrayList,\ java.util.ArrayList,\ java.lang.String)
+comment2.text=\r\n\ M\u00E9todo\ recorda\ o\ jogo\ em\ [Slot.(slot)].txt\r\n\ Par\u00E2metros\:\r\n\ ArraList<Piece>\ chessman1\ (Recorda\ todo\ o\ ArrayList\ com\ as\ pe\u00E7as\ do\ time\ 1)\r\n\ ArraList<Piece>\ chessman2\ (Recorda\ todo\ o\ ArrayList\ com\ as\ pe\u00E7as\ do\ time\ 2)\r\n\ String\ file\ (Procura\ o\ Slot\ a\ recordar)\ \r\n\ retorna\ String\ charAt(0)\ \=\=\ 'M'\ ||\ 'S'\ (Modo\ de\ jogo)\r\n\ retorna\ String\ charAt(1)\ \=\=\ 'T'\ ||\ 'F'\ (Turno\ respectivo\ 'T'\ \=\ Player\ 1\ &&\ 'F'\ \=\ player\ 2)\r\n
+numComments=3

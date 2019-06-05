@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Game
+comment1.params=boardPos
+comment1.target=boolean\ isBoard(java.lang.String)
+comment1.text=\r\n\ M\u00E9todo\ de\ valida\u00E7\u00E3o\ que\ retorna\ se\ a\ posi\u00E7\u00E3o\ (Letra,N\u00FAmero)\ faz\ parte\ do\ tabuleiro\r\n\ retorna\ true\ se\ for\ parte\ do\ tabuleiro.\r\n
+comment2.params=boardPos\ l\ i
+comment2.target=boolean\ isBoardAux(java.lang.String,\ char,\ int)
+comment2.text=\r\n\ M\u00E9todo\ de\ auxiliar\ de\ valida\u00E7\u00E3o\ que\ indica\ se\ a\ posi\u00E7\u00E3o\ faz\ parte\ das\ inst\u00E2ncias\ do\ tabuleiro\r\n
+comment3.params=y
+comment3.target=int\ positionY(char)
+comment3.text=\r\n\ M\u00E9todo\ que\ converte\ o\ char\ posi\u00E7\u00E3o\ Y\ em\ inteiro\r\n\ Par\u00E2metros\:\r\n\ char\ y\ cordenada\ no\ formato\ de\ letra;\r\n
+comment4.params=x
+comment4.target=int\ positionX(char)
+comment4.text=\r\n\ M\u00E9todo\ que\ converte\ o\ char\ posi\u00E7\u00E3o\ X\ em\ inteiro\r\n\ Par\u00E2metros\:\r\n\ char\ x\ cordenada\ no\ formato\ de\ n\u00FAmero;\r\n
+comment5.params=board\ chessman1\ chessman2\ compatibility
+comment5.target=void\ newGame(Board,\ java.util.ArrayList,\ java.util.ArrayList,\ int)
+comment5.text=\r\n\ M\u00E9todo\ que\ converte\ o\ char\ posi\u00E7\u00E3o\ X\ em\ inteiro\r\n\ Par\u00E2metros\:\r\n\ char\ x\ cordenada\ no\ formato\ de\ n\u00FAmero;\r\n
+comment6.params=board\ chessman1\ chessman2\ slot\ compatibility
+comment6.target=java.lang.String\ loadGame(Board,\ java.util.ArrayList,\ java.util.ArrayList,\ java.lang.String,\ int)
+comment6.text=\r\n\ M\u00E9todo\ que\ converte\ o\ char\ posi\u00E7\u00E3o\ X\ em\ inteiro\r\n\ Par\u00E2metros\:\r\n\ char\ x\ cordenada\ no\ formato\ de\ n\u00FAmero;\r\n
+comment7.params=board\ chessmanList\ chessmanListEnemy\ arrPos\ fx
+comment7.target=java.lang.String\ canMove(Board,\ java.util.ArrayList,\ java.util.ArrayList,\ int,\ java.lang.String)
+comment7.text=\r\n\ M\u00E9todo\ que\ valida\ o\ moviento\ das\ pe\u00E7as\ de\ acordo\ com\ seu\ tipo.\r\n\r\n\ \ Par\u00E2metros\:\r\n\ Board\ board\ (Faz\ verifica\u00E7\u00E3o\ de\ posi\u00E7\u00E3o\ em\ rela\u00E7\u00E3o\ ao\ tabuleiro)\r\n\ ArrayList<Piece>\ chessmanList\ (Utilizada\ para\ getType\ da\ pe\u00E7a\ movida\ e\ para\ verificar\ se\ est\u00E1\ se\ movendo\ para\ a\ posi\u00E7\u00E3o\ de\ um\ aliado\ ou\ inimigo\ (caso\ board.isEmpty\=\=false))\r\n\ ArrayList<Piece>\ chessmanListEnemy\ (Utilizado\ para\ validar\ os\ movimentos\ do\ rei,\ tendo\ em\ vista\ que\ o\ mesmo\ n\u00E3o\ pode\ se\ por\ em\ xeque)\r\n\ int\ arrPos\ (Posi\u00E7\u00E3o\ da\ pe\u00E7a\ que\ ser\u00E1\ movida\ em\ rela\u00E7\u00E3o\ ao\ seu\ ArrayList)\r\n\ String\ fx\ (Posi\u00E7\u00E3o\ destino\ para\ o\ qual\ se\ valida\ o\ movimento)\r\n\r\n\ \ Retorno\ composto\ de\ comando\ e\ identifica\u00E7\u00E3o\ de\ proibi\u00E7\u00E3o;\r\n\ retorna\ String\ charAt(0)\ \=\=\ T\ se\ for\ poss\u00EDvel\ se\ mover\ para\ a\ posi\u00E7\u00E3o\r\n\ retorna\ String\ charAt(0)\ \=\=\ F\ se\ n\u00E3o\ for\ poss\u00EDvel\ se\ mover\ para\ a\ posi\u00E7\u00E3o\r\n\ retorna\ String\ charAt(1)\ \=\=\ C\ caso\ a\ pe\u00E7a\ possa\ se\ mover\ e\ esteja\ (ou\ n\u00E3o)\ apenas\ seja\ impedida\ por\ ser\ a\ posi\u00E7\u00E3o\ de\ um\ aliado\r\n\ retorna\ String\ charAt(1)\ \=\=\ N\ caso\ a\ pe\u00E7a\ n\u00E3o\ possa\ se\ mover\ mesmo\ se\ a\ posi\u00E7\u00E3o\ estiver\ vazia\r\n\ retorna\ String\ charAt(1)\ \=\=\ K\ caso\ a\ pe\u00E7a\ seja\ movida\ para\ a\ mesma\ posi\u00E7\u00E3o\ de\ um\ inimigo\ (Prever\ remo\u00E7\u00E3o\ da\ pesa\ que\ foi\ eliminada).\ \r\n\ retorna\ String\ substring(2)\ \=\=\ identifica\u00E7\u00E3o\ da\ proibi\u00E7\u00E3o.\r\n
+comment8.params=board\ chessman\ fx
+comment8.target=boolean\ pawnChange(Board,\ Piece,\ java.lang.String)
+numComments=9

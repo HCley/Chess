@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Board
+comment0.text=\r\n\ Classe\ de\ m\u00E9todos\ de\ Objeto\ para\ manipula\u00E7\u00E3o\ do\ tabuleiro\r\n\r\n\r\n\ Autor\:\ Cleyson\ B.\ de\ Olideira\r\n\ Vers\u00E3o/data\:\ v05\ d11-11-18\r\n
+comment1.params=
+comment1.target=Board()
+comment1.text=\r\n\ M\u00E9todo\ construtor\ de\ classe\r\n
+comment2.params=x\ y
+comment2.target=void\ clearPos(int,\ int)
+comment2.text=\r\n\ M\u00E9todo\ que\ limpa\ a\ posi\u00E7\u00E3o\ XY\ indicada\r\n
+comment3.params=
+comment3.target=void\ clearBoard()
+comment3.text=\r\n\ M\u00E9todo\ que\ limpa\ todo\ o\ tabuleiro\r\n
+comment4.params=x\ y
+comment4.target=java.lang.Boolean\ isEmpty(int,\ int)
+comment4.text=\r\n\ M\u00E9todo\ que\ verifica\ se\ a\ posi\u00E7\u00E3o\ est\u00E1\ vazia.\r\n\ retorna\ true\ se\ a\ posi\u00E7\u00E3o\ estiver\ vazia.\r\n\ Par\u00E2metros\:\ (ignoreCase)\r\n\ int\ x\ posi\u00E7\u00E3o\ respectiva\r\n\ int\ y\ posi\u00E7\u00E3o\ respectiva\r\n
+comment5.params=info\ compatibility
+comment5.target=void\ getObject(java.lang.String,\ int)
+comment5.text=\r\n\ M\u00E9todo\ que\ recebe\ nova\ posi\u00E7\u00E3o\ da\ Piece\ e\ escreve\ a\ mesma\ no\ tabuleiro\ conjunto\ seu\ time\r\n\ Par\u00E2metros\:\ (ignoreCase)\r\n\ String\ info\ (informa\u00E7\u00F5es\ da\ pe\u00E7a\ no\ formato\ x,\ y,\ t,chessman\ (posi\u00E7\u00E3o\ x,\ posi\u00E7\u00E3o\ y,\ time,\ tipo))\r\n
+comment6.params=compatibility
+comment6.target=java.lang.String\ refresh(int)
+comment6.text=\r\n\ M\u00E9todo\ que\ retorna\ o\ tabuleiro\ com\ suas\ posi\u00E7\u00F5es\ preenchidas\r\n
+comment7.params=
+comment7.target=java.lang.String\ printBoard()
+comment7.text=\r\n\ M\u00E9todo\ que\ retorna\ apenas\ o\ desenho\ do\ tabuleiro\r\n
+numComments=8

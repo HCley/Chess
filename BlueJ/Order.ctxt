@@ -1,0 +1,30 @@
+#BlueJ class context
+comment0.target=Order
+comment1.params=i
+comment1.target=int\ positionX(java.lang.String)
+comment1.text=\r\n\ M\u00E9todo\ que\ procura\ pocura\ poPiecePiecesi\u00E7\u00E3o\ X.\r\n\ retorna\ inteiro\ com\ a\ posi\u00E7\u00E3o\ X.\r\n\ Par\u00E2metros\:\ (ignoreCase)\r\n\ String\ i\ (String\ no\ formato\ Fun\u00E7\u00E3oLetraN\u00FAmero\ (Function,y,x))\r\n
+comment2.params=i
+comment2.target=int\ positionY(java.lang.String)
+comment2.text=\r\n\ M\u00E9todo\ que\ procura\ pocura\ posi\u00E7\u00E3o\ Y.\r\n\ retorna\ inteiro\ com\ a\ posi\u00E7\u00E3o\ Y.\r\n\ Par\u00E2metros\:\ (ignoreCase)\r\n\ String\ i\ (String\ no\ formato\ Fun\u00E7\u00E3oLetraN\u00FAmero\ (Function,y,x))\r\n
+comment3.params=board\ i
+comment3.target=boolean\ isEmpty(Board,\ java.lang.String)
+comment3.text=\r\n\ M\u00E9todo\ que\ verifica\ se\ a\ posi\u00E7\u00E3o\ est\u00E1\ vazia.\r\n\ retorna\ true\ se\ a\ posi\u00E7\u00E3o\ estiver\ vazia.\r\n\ Par\u00E2metros\:\ (ignoreCase)\r\n\ Classe\ Board\ (tabuleiro\ para\ valida\u00E7\u00E3o\ da\ posi\u00E7\u00E3o),\r\n\ String\ i\ (String\ no\ formato\ Fun\u00E7\u00E3oLetraN\u00FAmero\ (Function,y,x))\r\n
+comment4.params=chessman\ fx
+comment4.target=boolean\ isPiece(Piece,\ java.lang.String)
+comment4.text=\r\n\ M\u00E9todo\ que\ compara\ a\ classe\ pe\u00E7a\ com\ posi\u00E7\u00E3o\ fx\r\n\ retorna\ true\ se\ a\ pe\u00E7a\ for\ da\ posi\u00E7\u00E3o\ indicada.\r\n
+comment5.params=chessman\ fx
+comment5.target=boolean\ isTeam(java.util.ArrayList,\ java.lang.String)
+comment5.text=\r\n\ M\u00E9todo\ que\ compara\ a\ posi\u00E7\u00E3o\ com\ pe\u00E7as\ do\ time\r\n\ retorna\ true\ se\ a\ pe\u00E7a\ for\ do\ time\ indicado.\r\n
+comment6.params=chessman\ fx
+comment6.target=int\ findPiece(java.util.ArrayList,\ java.lang.String)
+comment6.text=\r\n\ M\u00E9todo\ que\ procura\ a\ posi\u00E7\u00E3o\ da\ pe\u00E7a\ dentro\ do\ ArrayList\r\n\ retorna\ valor\ inteiro\ da\ posi\u00E7\u00E3o\ correspondente.\r\n
+comment7.params=board\ chessman\ i\ compatibility
+comment7.target=void\ move(Board,\ Piece,\ java.lang.String,\ int)
+comment7.text=\r\n\ M\u00E9todo\ que\ move\ altera\ a\ classe\ pe\u00E7a\ e\ atualiza\ o\ tabuleiro;\r\n\ Par\u00E2metros\:\r\n\ Classe\ Piece\ (objeto\ que\ recebe\ nova\ posi\u00E7\u00E3o),\r\n\ Classe\ Board\ (tabuleiro\ que\ receber\u00E1\ nova\ posi\u00E7\u00E3o\ e\ limpar\u00E1\ anterior),\r\n\ String\ i\ (String\ contendo\ a\ nova\ cordenada.\ String\ no\ formato\ Fun\u00E7\u00E3oLetraN\u00FAmero\ (Function,y,x))\r\n\r\n
+comment8.params=board
+comment8.target=java.lang.String\ getMove(Board)
+comment8.text=\r\n\ M\u00E9todo\ que\ busca\ posi\u00E7\u00E3o\ com\ par\u00E2metro\ de\ classe\ e\ texto\ pr\u00E9\ definido\r\n\ "Qual\ a\ posi\u00E7\u00E3o\ da\ pe\u00E7a?\ "\r\n
+comment9.params=board\ chessman\ msg\ empty
+comment9.target=java.lang.String\ getMove(Board,\ java.util.ArrayList,\ java.lang.String,\ boolean)
+comment9.text=\r\n\ M\u00E9todo\ que\ solicita\ nova\ posi\u00E7\u00E3o\r\n\ Par\u00E2metros\:\r\n\ Classe\ Board\ (tabuleiro\ para\ valida\u00E7\u00E3o\ da\ posi\u00E7\u00E3o),\r\n\ String\ msg\ (mensagem\ a\ ser\ exibida\ durante\ a\ solicita\u00E7\u00E3o),\r\n\ Boolean\ empty\ (apenas\ retorna\ posi\u00E7\u00E3o\ vazia\ se\ empty\ \=\ true,\ do\ contr\u00E1rio\ apenas\ retorna\ posi\u00E7\u00E3o\ ocupada)\r\n
+numComments=10
